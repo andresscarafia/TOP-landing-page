@@ -51,7 +51,7 @@ a,
 
 .hero-text button {
   color: #F9FAF8;
-  background-color: #3882F6;
+  background-color: #25702f;
   border-radius: 8px;
   padding:8px 30px;
   border: none;
@@ -144,6 +144,43 @@ a,
 .author {
   align-self: flex-end;
   font-size: 20px;
+}
+
+.section-4 {
+  padding: 180px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-color: #25702f;
+  color:#F9FAF8;
+  padding: 20px 80px;
+  flex: 1;
+  display: flex;
+  border-radius: 8px ;
+}
+
+.banner h3 {
+  font-size: 24px;
+}
+
+.banner p {
+  font-size: 14px;
+  font-weight: 0;
+}
+
+.banner button {
+  align-self: center;
+  margin-left: auto;
+  flex: none;
+  background-color: #25702f;
+  border-color: #F9FAF8;
+  color: #F9FAF8;
+  border-radius: 8px;
+  padding: 12px 30px;
+  border-style: solid;
 }
 
 .footer {
