@@ -20,6 +20,7 @@ body {
   font-size: 24px;
   color: #F9FAF8;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 700;
 }
 
 ul {
@@ -41,7 +42,7 @@ a,
 
 .hero-text h1 {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: 1000;
   color: #F9FAF8;
   flex: 1;
   margin: 0;
@@ -84,6 +85,57 @@ a,
   justify-content: center;
   margin: 0;
 }
+
+.section-2 {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 40px 160px 80px 160px; 
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 1000;
+  color: #1F2937;
+  margin-bottom: 30px;
+}
+
+.info-container {
+  display:flex;
+  justify-content: center;
+  gap: 50px;
+  flex-shrink 1;
+}
+
+.info {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.info img {
+  height: 200px;
+  width: 200px;
+}
+
+.info-text {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section-3 {
   background-color: #E5E7EB;
